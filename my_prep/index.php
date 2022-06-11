@@ -18,7 +18,7 @@
           $preps = pg_query($db, "SELECT id, fio, chair, degree, photo FROM sc_prep WHERE id=$id");
 		  $disc = pg_query($db, "SELECT id, sc_prep_id, disc_name, disc_page FROM sc_prep_disc WHERE sc_prep_id=$id");
 		  $science = pg_query($db, "SELECT id, sc_prep_id, direction FROM sc_prep_science WHERE sc_prep_id=$id");
-          $public = pg_query($db, "SELECT id, sc_prep_id, pub_header, pub_body FROM sc_prep_publications WHERE sc_prep_id=$id ORDER BY tech_id LIMIT 20");
+          $public = pg_query($db, "SELECT id, sc_prep_id, pub_header, pub_body FROM sc_prep_publications WHERE sc_prep_id=$id ORDER BY tech_id DESC LIMIT 20");
 
           $preps = pg_fetch_all($preps);
 		  $disc = pg_fetch_all($disc);

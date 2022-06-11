@@ -498,6 +498,10 @@ li{
         margin-top: 100px !important;
         margin-bottom: 200px !important;
     }
+
+    .hideBTN{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 767px) {   
@@ -585,5 +589,9 @@ li{
     .practice{
         margin-top: 50px !important;
         margin-bottom: 100px !important;
+    }
+
+    .hideBTN-sm{
+        display: none !important;
     }
 }

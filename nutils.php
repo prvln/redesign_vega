@@ -102,6 +102,39 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 					<span class="navbar-toggler-icon"></span>    
 				</button>
 
+					  <div class="hideBTN gap-2 d-lg-flex justify-content-lg-end my-2 mr-lg-2 mr-md-0">
+							<form method="POST">
+								<input type="hidden" name="dark" value="<?=(($darktheme)?0:1)?>">
+								<button class="btn btn-outline-light w-100" type="submit">Тема</button>
+							</form> 
+					  </div>
+
+                <?php
+        if($logged)
+        {
+?>
+
+						<div class="hideBTN gap-2 d-lg-flex justify-content-lg-end my-2">
+							<form method="POST" enctype="multipart/form-data" action="/auth/action.php">
+								<button class="btn btn-outline-light" type="submit">Выход</button>
+								<input type="hidden" name="action" value="logout">
+							</form>
+						</div>
+
+<?php
+        }
+        else
+        {
+?>
+   					
+						<div class="hideBTN gap-2 d-lg-flex justify-content-lg-end my-2">
+								<button class="btn btn-outline-light" data-toggle="ModalSignIn">Вход</button>
+						</div>
+					
+<?php
+        }
+?>
+
 				<a href="../main" class="navbar-brad me-lg-3 me-xl-4 me-xxl-5"><svg xmlns="http://www.w3.org/2000/svg" width="44.996" height="45" viewBox="0 0 44.996 45">
 					<path id="Logo" data-name="Logo" d="M149.546,195.5a22.506,22.506,0,0,0-22.1,18.244,54.633,54.633,0,0,1,9.445-2.678,55.249,55.249,0,0,1,18.59-.3,54.567,54.567,0,0,0-28.435,7.519,22.527,22.527,0,0,0,.674,5.206,40.427,40.427,0,0,1,29.827-10.734,37.33,37.33,0,0,0-11.988,3.283,38.273,38.273,0,0,0-15.447,13.3,22.594,22.594,0,0,0,3.914,4.945,37.942,37.942,0,0,1,8.877-11.167,38.443,38.443,0,0,1,17.365-8.412l.008-.551-5.975,1.918,4.869-3.836-6.418-4.131,7.451,2.139v-4.131l2.066,3.541,2.434-1.475-.664,2.8,3.91.885-3.91,1.254,4.426,7.008-6.049-5.533-2.213,4.943.054-3.912c-5.48,3.747-11.053,7.675-13.849,13.428a21.07,21.07,0,0,0-1.908,10.866,22.5,22.5,0,1,0,5.044-44.432Z" transform="translate(-127.05 -195.5)" fill="#fff"/>
 					</svg>
@@ -225,33 +258,29 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 	}
 ?>
 					</ul>
-					<a href="#">
-					  <div class="d-grid gap-2 d-lg-flex justify-content-lg-end my-2 mr-lg-2 mr-md-0">
+					  <div class="hideBTN-sm d-grid gap-2 d-lg-flex justify-content-lg-end my-2 mr-lg-2 mr-md-0">
 							<form method="POST">
 								<input type="hidden" name="dark" value="<?=(($darktheme)?0:1)?>">
 								<button class="btn btn-outline-light w-100" type="submit">Тема</button>
 							</form> 
 					  </div>
-				    </a>
 <?php
         if($logged)
         {
 ?>
-   					<a href="#">
-						<div class="d-grid gap-2 d-lg-flex justify-content-lg-end my-2">
+						<div class="hideBTN-sm gap-2 d-lg-flex justify-content-lg-end my-2">
 							<form method="POST" enctype="multipart/form-data" action="/auth/action.php">
 								<button class="btn btn-outline-light w-100" type="submit">Выход</button>
 								<input type="hidden" name="action" value="logout">
 							</form>
 						</div>
-					</a>
 <?php
         }
         else
         {
 ?>
    					
-						<div class="d-grid gap-2 d-lg-flex justify-content-lg-end my-2">
+						<div class="hideBTN-sm gap-2 d-lg-flex justify-content-lg-end my-2">
 								<button class="btn btn-outline-light w-100" data-toggle="ModalSignIn">Вход</button>
 						</div>
 					
