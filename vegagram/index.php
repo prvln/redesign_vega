@@ -95,7 +95,7 @@
         </div>
         <div class="col-12 col-md-4 col-lg-3 mb-5 element-animation">
           <div class="card h-100">
-           <a href="../vegagram/bius.php"><img src="../images/bius.png" class="card-img-top"></a> 
+           <a href="../vegagram/bius.php"><img src="../images/bius.jpg" class="card-img-top"></a> 
             <div class="card-body">
               <h5 class="card-title"><strong>Комплексный отдел БИУС</strong></h5>
               <p class="card-text">Отдел занимается программно-аппаратным комплексом бортовой информационно-управляющей системы...</p></div>
@@ -108,7 +108,7 @@
         
         <div class="col-12 col-md-4 col-lg-3 mb-5 element-animation">
           <div class="card h-100">
-           <a href="../vegagram/bpla.php"> <img src="../images/rls.png" class="card-img-top"></a>
+           <a href="../vegagram/bpla.php"> <img src="../images/rls.jpg" class="card-img-top"></a>
             <div class="card-body">
               <h5 class="card-title"><strong>Отдел перспектив развития систем радиоуправления и радиолокации</strong></h5>
               <p class="card-text">В отделе два основных направления работ – во-первых, применение методов искусственного интеллекта в ...</p>

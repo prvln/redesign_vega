@@ -494,6 +494,10 @@ li{
         from { text-indent: -140%; }
         to { text-indent: 2; }
     }
+    .practice{
+        margin-top: 100px !important;
+        margin-bottom: 200px !important;
+    }
 }
 
 @media screen and (max-width: 767px) {   
@@ -576,5 +580,10 @@ li{
         transition: 0s;
         font-size: medium;
         background: #054d91;
+    }
+
+    .practice{
+        margin-top: 50px !important;
+        margin-bottom: 100px !important;
     }
 }

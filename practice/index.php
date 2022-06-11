@@ -9,28 +9,16 @@
         <h5 class="text-muted mt-3 element-animation"><strong>Навигация по отделам:</strong></h5>
             
             <div class="d-flex justify-content-start flex-column flex-lg-row flex-wrap element-animation">  
-                    <a href="#first" class="btn btn-outline-secondary my-1 mr-lg-2">Базовая кафедра</a>
+                    
                     <a href="#second" class="btn btn-outline-secondary my-1 mr-lg-2">Разработка и сопровождение ПО</a>
                     <a href="#third" class="btn btn-outline-secondary my-1 mr-lg-2">Вычислительная техника и ПЛИС</a>
                     <a href="#four" class="btn btn-outline-secondary my-1 mr-lg-2">Комплексный отдел БИУС</a>
                     <a href="#five" class="btn btn-outline-secondary my-1 mr-lg-2">Радиоуправление и радиолокация</a>
                     <a href="#six" class="btn btn-outline-secondary my-1 mr-lg-2">Синтез и обработка РЛИ</a>
+                    <a href="#first" class="btn btn-outline-secondary my-1 mr-lg-2">Базовая кафедра</a>
             </div>
 
-        <div class="row featurette my-5">
-        <div class="col-md-8 order-md-2">
-          <h2 id="first" id="" class="featurette-heading mb-2 element-animation">Базовая кафедра</h2><p class="element-animation" align="justify"> Наша кафедра – одно из подразделений Института искусственно интеллекта, работающего под эгидой Концерна, в котором можно проходить практику и готовить выпускную работу. Программными продуктами, созданными на кафедре, вы наверняка уже пользовались и будете пользоваться еще больше. CMS для дистанционного обучения, проверки учебных работ преподавателем, прохождение предзащиты, формирование программы нашей секции на Конференции МИРЭА, карта специальности, галерея лучших учебных работ и многие другие сервисы – разработаны и уже используются. Теперь хотелось бы сделать кафедру настоящим &laquo;умным домом&raquo;. </p>
-          <p class="element-animation" align="justify">
-
-          Сейчас для этого постоянно дорабатывается сайт кафедры (PHP, JS, CSS, Python, SQLite, PostgreSQL, Docker, Git, COM, REST, семантический поиск), а также создаются несколько мобильных приложений под iOS, Android и телеграм-ботов. Отличие этого направления от остальных в том, что в разработках много графики, пользовательского интерфейса, вы оперативно будете получать обратную связь от пользователей вашего продукта и ощущать получаемую пользу сами, что делает работу гораздо более интересной.</p>
-        </div>
-        <div class="col-md-4 order-md-1">
-          <img src="../images/caf.png" class="element-animation card-img-top rounded-3">
-
-        </div>
-      </div>
-
-      <div class="row featurette my-5">
+      <div class="row featurette practice">
         <div class="col-md-6 ">
           <h2 id="second" class="featurette-heading mb-2 element-animation">Отдел разработки и сопровождения программного обеспечения</h2>
           <p class="element-animation" align="justify">Отдел включает три лаборатории, в каждой из которых создаются как функциональные программы для использования в составе изделий Концерна, так и технологические программы, необходимые для создания, отладки, испытаний или сопровождения функциональных.</p>
@@ -46,20 +34,23 @@
         </div>
         <div class="col-md-3">
           
-          <img src="../images/devPO3.jpg" class="element-animation card-img-top rounded-3">  
+           
           <img src="../images/devPO.png" class="element-animation card-img-top rounded-3">
-          <img src="../images/devPO4.jpg" class="element-animation card-img-top rounded-3">       
+          <img src="../images/devPO1.jpg" class="element-animation card-img-top rounded-3"> 
+          <img src="../images/devPO2.jpg" class="element-animation card-img-top rounded-3">  
+          <img src="../images/devPO3.jpg" class="element-animation card-img-top rounded-3">     
     
         </div>
 
         <div class="col-md-3">
-        <img src="../images/devPO1.jpg" class="element-animation card-img-top rounded-3">  
-          <img src="../images/devPO6.jpg" class="element-animation card-img-top rounded-3">
+          <img src="../images/devPO4.jpg" class="element-animation card-img-top rounded-3">
           <img src="../images/devPO5.jpg" class="element-animation card-img-top rounded-3">
+          <img src="../images/devPO6.jpg" class="element-animation card-img-top rounded-3">
+          <img src="../images/devPO7.jpg" class="element-animation card-img-top rounded-3">
         </div>
       </div>
 
-        <div class="row featurette">
+        <div class="row featurette practice">
         <div class="col-md-8 order-md-2">
           <h2 id="third" class="featurette-heading mb-2 element-animation">Отдел разработки вычислительной техники и программирования ПЛИС</h2>
           <p class="element-animation" align="justify">Отдел занимается специализированными бортовыми  устройствами обработки радиолокационной информации. На практике студенты могут поработать с "железом", которое обрабатывает сигналы от радиолокатора. Для этого &laquo;железа&raquo; используются ПЛИС — программируемые логические интегральные схемы.
@@ -82,7 +73,7 @@
         </div>
       </div>
 
-      <div class="row featurette my-5">
+      <div class="row featurette practice">
         <div class="col-md-8 ">
           <h2 id="four" class="featurette-heading mb-2 element-animation">Комплексный отдел БИУС</h2> 
           <p class="element-animation" align="justify">Отдел занимается программно-аппаратным комплексом бортовой информационно-управляющей системы.</p>
@@ -106,8 +97,8 @@
         
         
 
-      <div class="row featurette my-5">
-        <div class="col-md-9 order-md-2">
+      <div class="row featurette practice">
+        <div class="col-md-6 order-md-2">
           <h2 id="five" class="featurette-heading mb-2 element-animation">Отдел перспектив развития систем радиоуправления и радиолокации</h2>
           <p class="element-animation" align="justify"> В отделе два основных направления работ – во-первых, применение методов искусственного интеллекта в задачах обработки информации и управления, во-вторых, разработка алгоритмов управления БПЛА, мониторинга пространства и применения пространственных приемо-излучающих структур на базе БПЛА.</p>
           <p class="element-animation" align="justify">
@@ -120,11 +111,13 @@
         <div class="col-md-3 order-md-1">
           <img src="../images/rls.jpg" class="card-img-top rounded-3 element-animation">
           <img src="../images/rls1.jpg" class="card-img-top rounded-3 element-animation">
+        </div>
+        <div class="col-md-3 order-md-1">
           <img src="../images/rls2.jpg" class="card-img-top rounded-3 element-animation">
         </div>
       </div>
 
-      <div class="row featurette my-5">
+      <div class="row featurette practice">
         <div class="col-md-6 ">
           <h2 id="six" class="featurette-heading mb-2 element-animation">Отдел алгоритмов синтеза и обработки радиолокационных изображений</h2>
           <p class="element-animation" align="justify">Отдел занимается разработкой, моделированием и повышением эффективности алгоритмов обработки радиолокационных сигналов, синтеза и обработки радиолокационных изображений (РЛИ) для радиолокаторов с синтезированной апертурой. То есть локаторов, в которых излучатель перемещается для сканирования некоторой поверхности или пространства. </p>
@@ -137,18 +130,28 @@
            </p>
         </div>
         <div class="col-md-3">
-          <img src="../images/rlspic.png" class="card-img-top rounded-3 element-animation">
+        <img src="../images/rlspic.jpg" class="card-img-top rounded-3 element-animation">
           <img src="../images/rlspic1.jpg" class="card-img-top rounded-3 element-animation">
         </div>
         <div class="col-md-3">
-          <img src="../images/rlspic.jpg" class="card-img-top rounded-3 element-animation">
           <img src="../images/rlspic3.jpg" class="card-img-top rounded-3 element-animation">
-
+          <img src="../images/rlspic.png" class="card-img-top rounded-3 element-animation">
         </div>
 
       </div>
 
-      
+      <div class="row featurette practice">
+        <div class="col-md-8 order-md-2">
+          <h2 id="first" id="" class="featurette-heading mb-2 element-animation">Базовая кафедра</h2><p class="element-animation" align="justify"> Наша кафедра – одно из подразделений Института искусственно интеллекта, работающего под эгидой Концерна, в котором можно проходить практику и готовить выпускную работу. Программными продуктами, созданными на кафедре, вы наверняка уже пользовались и будете пользоваться еще больше. CMS для дистанционного обучения, проверки учебных работ преподавателем, прохождение предзащиты, формирование программы нашей секции на Конференции МИРЭА, карта специальности, галерея лучших учебных работ и многие другие сервисы – разработаны и уже используются. Теперь хотелось бы сделать кафедру настоящим &laquo;умным домом&raquo;. </p>
+          <p class="element-animation" align="justify">
+
+          Сейчас для этого постоянно дорабатывается сайт кафедры (PHP, JS, CSS, Python, SQLite, PostgreSQL, Docker, Git, COM, REST, семантический поиск), а также создаются несколько мобильных приложений под iOS, Android и телеграм-ботов. Отличие этого направления от остальных в том, что в разработках много графики, пользовательского интерфейса, вы оперативно будете получать обратную связь от пользователей вашего продукта и ощущать получаемую пользу сами, что делает работу гораздо более интересной.</p>
+        </div>
+        <div class="col-md-4 order-md-1">
+          <img src="../images/caf.png" class="element-animation card-img-top rounded-3">
+
+        </div>
+      </div>
 
     </div>
 	

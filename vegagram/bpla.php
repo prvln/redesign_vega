@@ -15,8 +15,9 @@
             Опыт разработки таких перспективных алгоритмов позволит довольно легко найти себе применение в сфере разработки сложных информационных и управляющих систем самого разного назначения.</p>
         </div>
         <div class="col-md-4 order-md-1">
-          <img src="../images/rls.png" class="card-img-top rounded-3">
+          <img src="../images/rls.jpg" class="card-img-top rounded-3">
           <img src="../images/rls1.jpg" class="card-img-top rounded-3">
+          <img src="../images/rls2.jpg" class="card-img-top rounded-3">
         </div>
       </div>
 

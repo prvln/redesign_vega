@@ -19,7 +19,7 @@
             Для разработки документации используется Word, LibreOffice, (La)TEX.</p>
         </div>
         <div class="col-md-4">
-          <img src="../images/bius.png" class="card-img-top rounded-3" >
+          <img src="../images/bius.jpg" class="card-img-top rounded-3" >
   
         </div>
       </div>

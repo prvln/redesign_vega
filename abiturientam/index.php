@@ -190,6 +190,7 @@
         <a class="btn btn-outline-danger m-1" href="http://www.mirea.ru/">Сайт РТУ МИРЭА &raquo;</a>
         <a class="btn btn-outline-danger m-1" href="https://priem.mirea.ru/">Приемная комиссия &raquo;</a>
         <a class="btn btn-outline-danger m-1" href="../files/poster2022.pdf">Скачать постер &raquo;</a>
+        <a class="btn btn-outline-danger m-1" href="../practice">Практика на предприятии &raquo;</a>
         </div>
         </div>
       </div>
