@@ -108,7 +108,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 				</a>
 
 				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav mr-auto align-items-center">
+					<ul class="navbar-nav mr-auto align-items-start">
 						<li class="nav-item mx-2 mx-xl-4 mx-xxl-5">
                             <div class="Dropdown">
                             <a href="../main" class="Dropbtn nav-link active"><h6>О&nbsp;кафедре 
@@ -168,7 +168,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 	{
 ?>
 						<li class="nav-item mx-2 mx-xl-4 mx-xxl-5">
-							<a href="#" class="nav-link active disabled text-muted"><h6>Студентам</h6></a>
+							<a href="#" class="nav-link disabled text-muted"><h6>Студентам</h6></a>
 						</li> 
 <?php 		
 	}
@@ -177,7 +177,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 ?>
 						<li class="nav-item mx-2 mx-xl-4 mx-xxl-5">
                         <div class="Dropdown">
-                        <a href="#" class="Dropbtn nav-link active"><h6>Преподавателям</h6></a>
+                        <a href="https://vega.fcyb.mirea.ru/rasp/groups.php" class="Dropbtn nav-link active"><h6>Преподавателям</h6></a>
                             <div class="DropdownContent">
                             <a href="https://vega.fcyb.mirea.ru/disc/">Страницы по дисциплинам</a>
                             <a href="https://vega.fcyb.mirea.ru/rasp/groups.php">Списки подгрупп</a>
@@ -193,7 +193,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 	{
 ?>
 						<li class="nav-item mx-2 mx-xl-4 mx-xxl-5">
-							<a href="#" class="nav-link active disabled text-muted"><h6>Преподавателям</h6></a>
+							<a href="#" class="nav-link disabled text-muted"><h6>Преподавателям</h6></a>
 						</li> 
 <?php 		
 	}
@@ -202,7 +202,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 ?>
 						<li class="nav-item mx-2 mx-xl-4 mx-xxl-5">
                         <div class="Dropdown">
-                        <a href="#" class="Dropbtn nav-link active"><h6>Администрации</h6></a>
+                        <a href="https://vega.fcyb.mirea.ru/disc/attendance.php" class="Dropbtn nav-link active"><h6>Администрации</h6></a>
                             <div class="DropdownContent">
                             <a href="https://vega.fcyb.mirea.ru/students/">Списки студентов</a>
                             <a href="https://vega.fcyb.mirea.ru/disc/">Страницы по дисциплинам</a>
@@ -219,7 +219,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
 	{
 ?>
 						<li class="nav-item mx-2 mx-xl-4 mx-xxl-5">
-							<a href="#" class="nav-link active disabled text-muted"><h6>Администрации</h6></a>
+							<a href="#" class="nav-link disabled text-muted"><h6>Администрации</h6></a>
 						</li> 
 <?php 		
 	}
@@ -328,7 +328,7 @@ function printFooter()
             <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
                 <div class="footer-title"><h5> <strong>Абитуриентам</strong></h5></div> 
                 <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/poster.php" class="nav-link p-0 ">Постер</a></li>
+                <li class="nav-item mb-2"><a href="../files/poster2022.pdf" class="nav-link p-0 ">Постер</a></li>
                 <li class="nav-item mb-2"><a href="../bak" class="nav-link p-0 ">Дисциплины бакалавриата</a></li>
                 <li class="nav-item mb-2"><a href="../mag" class="nav-link p-0 ">Дисциплины магистратуры</a></li>
                 <li class="nav-item mb-2"><a href="../practice" class="nav-link p-0 ">Практика на предприятии</a></li>
