@@ -3,6 +3,22 @@
 require_once('../../auth/variables.php');
 include_once('../../auth/auth_ssh.class.php');
 
+function checkDatabase()
+{
+	global $host, $port, $dbname, $user, $password;
+	
+	if (@pg_pconnect("host=".$host." port=".$port." dbname=".$dbname." user=".$user." password=".$password) === false) {
+?>
+        <div class="container-lg my-5">
+			Ошибка подключения к БД
+		</div>
+<?php
+		printFooter();
+		http_response_code(500);
+		exit;
+	}
+}
+
 function printHeader($title = 'Базовая кафедра Веги', $submenu = "", $styles = NULL, $scripts = NULL)
 {
 	session_start();
@@ -271,7 +287,7 @@ function printFooter()
 {
 	$au = new auth_ssh();
 ?>
-	    <div class="vegaNavbar">
+	<div class="vegaNavbar">
         <div class="container-sm container-lg container-md"> 
             <footer class="row row-cols-6 py-5 mt-5">
             <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
@@ -376,9 +392,8 @@ function printFooter()
 	}
 ?>				
             </div>
-            </div>
-        </footer>
-
+			</footer>
+        </div>
     </div>
 	<script src="../js/modal_window_sign_in.js"></script>
     <script src="../js/animation.js"></script>

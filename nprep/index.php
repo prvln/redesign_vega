@@ -2,6 +2,7 @@
 	require_once('../nutils.php');
 	
 	printHeader('Коллектив кафедры');
+	checkDatabase();
 ?>
 
     <div class="container-md">

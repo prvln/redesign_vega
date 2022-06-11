@@ -2,6 +2,7 @@
 	require_once('../nutils.php');
 	
 	printHeader('Вега - МИРЭА');
+	checkDatabase();
 ?>
 
 <div class="container-md">
