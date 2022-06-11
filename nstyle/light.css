@@ -106,7 +106,7 @@ body{
 
 /* Шрифт навигационных элементов */
 .nav-link{
-    font-size: small;  
+    font-size: medium;  
     color: #8d959a;
 }
 
@@ -321,33 +321,6 @@ img {
     height: 70px;
 }
 
-/* Анимация появления */
-.element-animation {
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-/* Анимация появления */
-.element-animation.element-show {
-    opacity: 1;
-    transition: all 1.5s;
-    transform: translateY(0%);
-}
-
-/* Бегущая строка */
-.marquee {
-    overflow: hidden;
-    white-space: nowrap; 
-    animation: move 30s linear infinite alternate;
-   }
-   
-/* Бегущая строка в противоположную сторону */
-.marqueerev {
-    overflow: hidden;
-    white-space: nowrap; 
-    animation: move 30s linear infinite alternate-reverse;
-}
-
 /* Фотогалерея */
 .column {
     display: none; 
@@ -388,11 +361,6 @@ img {
 }
 /* конец */
 
-/* Значение анимации */
-@keyframes move {
-    from { text-indent: -140%; }
-    to { text-indent: 2; }
-   }
 
 /*Для маленького экрана*/
 @media (min-width: 576px) {
@@ -454,52 +422,73 @@ img {
         color: #55FF33;
         transition: all .3s ease-out;
     }
+
+    /* Анимация появления */
+    .element-animation {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    /* Анимация появления */
+    .element-animation.element-show {
+        opacity: 1;
+        transition: all 1.5s;
+        transform: translateY(0%);
+    }
+
+    /* Бегущая строка */
+    .marquee {
+        overflow: hidden;
+        white-space: nowrap; 
+        animation: move 30s linear infinite alternate;
+    }
+    
+    /* Бегущая строка в противоположную сторону */
+    .marqueerev {
+        overflow: hidden;
+        white-space: nowrap; 
+        animation: move 30s linear infinite alternate-reverse;
+    }
+
+    /* Значение анимации */
+    @keyframes move {
+        from { text-indent: -140%; }
+        to { text-indent: 2; }
+    }
 }
 
 @media screen and (max-width: 767px) {   
     a{
         font-size: 16px !important;
     }
-    .marquee {
-        overflow: hidden;
-        white-space: nowrap; 
-        animation: move 10s linear infinite;
-        animation-direction: alternate;
-       }
-    
-    .marqueerev {
-        overflow: hidden;
-        white-space: nowrap; 
-        animation: move 10s linear infinite alternate-reverse;
-    }
 
-    @keyframes move {
-        from { text-indent: -187%; }
-        to { text-indent: 2; }
-       }
-
-    .img-tech{
-    height: 40px;
-    }
-    
     .my-5{
         margin-top: 0%;
         margin-bottom: 10% !important;
     }
- 
+
+    /* Цвет Vegagram */
+    .vegagram{
+        font-size: 300% !important;
+    }
+    
 }
 
 @media screen and (max-width: 993px){
+
+    /* Анимация появления */
     .element-animation {
-        opacity: 0.1;
-        transform: translateY(20px);
+        opacity: 1;
+        transform: translateY(0);
     }
+
+    /* Анимация появления */
     .element-animation.element-show {
         opacity: 1;
-        transition: all 1s;
-        transform: translateY(0%);
+        transition: 0s;
+        transform: translateY(0);
     }
-    /* Кнопка выпадающего списка */
+
     .Dropbtn {
         color: #55FF33;
         text-align: left;
@@ -521,6 +510,33 @@ img {
         margin-right: 36%;
         margin-top: 8px;
         margin-left: 13px;
+    }
+
+    .marquee {
+        display: none;
+        overflow: hidden;
+        white-space: nowrap; 
+        animation: move 0s linear infinite;
+        animation-direction: alternate;
+       }
+    
+    .marqueerev {
+        display: none;
+        overflow: hidden;
+        white-space: nowrap; 
+        animation: move 0s linear infinite alternate-reverse;
+    }
+
+    @keyframes move {
+        from { text-indent: 0%; }
+        to { text-indent: 0; }
+       }
+
+    /* Ячейка с презентациями при наведении */
+    .pres-block:hover{
+        transition: 0s;
+        font-size: medium;
+        background: #20c997;
     }
 }
 

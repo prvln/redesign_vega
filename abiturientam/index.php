@@ -133,7 +133,7 @@
       
       <div class="element-animation my-5">
         
-        <h2 class="text-center mb-5">Изучаемые технологии на кафедре</h2>
+        <h2 class="d-none d-lg-block text-center mb-5">Изучаемые технологии на кафедре</h2>
         <div class="marquee">
           <img src="../images/tech/img_tech11.png" class="img-tech">
         </div>

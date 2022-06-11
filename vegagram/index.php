@@ -27,7 +27,7 @@
               <p class="card-text">Вот и прошла кафедральная секция VII научно-технической конференции РТУ МИРЭА 2022.</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="https://vega.fcyb.mirea.ru/ntk2022/" class="btn btn-outline-secondary w-100">Перейти к НТК &raquo;</a>
+              <a href="https://vega.fcyb.mirea.ru/ntk2022/" class="btn btn-outline-warning w-100">Перейти к НТК &raquo;</a>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
               <p class="card-text">Вот и прошла кафедральная секция VI научно-технической конференции РТУ МИРЭА 2021.</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="https://vega.fcyb.mirea.ru/ntk2021/" class="btn btn-outline-secondary w-100">Перейти к НТК &raquo;</a>
+              <a href="https://vega.fcyb.mirea.ru/ntk2021/" class="btn btn-outline-warning w-100">Перейти к НТК &raquo;</a>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
               <p class="card-text">Наиболее значимые и удачные работы студентов и преподавателей кафедры собраны в разделе Awesome List.</p>
             </div>
             <div class="card-body d-flex align-items-end">
-            <a href="https://vega.fcyb.mirea.ru/list/" class="btn btn-outline-secondary w-100">Awesome List &raquo;</a>
+            <a href="https://vega.fcyb.mirea.ru/list/" class="btn btn-outline-warning w-100">Awesome List &raquo;</a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
               <p class="card-text">Наша кафедра – одно из подразделений Института искусственно интеллекта, работающего под эгидой Концерна, в котором можно...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/caf.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/caf.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@
               <p class="card-text">Отдел включает три лаборатории, в каждой из которых создаются как функциональные программы для использования в ...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/devpo.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/devpo.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@
               
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/plis.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/plis.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
 
           </div>
@@ -100,7 +100,7 @@
               <h5 class="card-title"><strong>Комплексный отдел БИУС</strong></h5>
               <p class="card-text">Отдел занимается программно-аппаратным комплексом бортовой информационно-управляющей системы...</p></div>
               <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/bius.php" class="btn btn-outline-secondary w-100 align-items-end">Читать далее &raquo;</a>
+              <a href="../vegagram/bius.php" class="btn btn-outline-warning w-100 align-items-end">Читать далее &raquo;</a>
             
             </div>
           </div>
@@ -114,7 +114,7 @@
               <p class="card-text">В отделе два основных направления работ – во-первых, применение методов искусственного интеллекта в ...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/bpla.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/bpla.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
               
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/rls.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/rls.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
 
           </div>
@@ -141,7 +141,7 @@
               <p class="card-text">теперь используется для проведения контрольных работ по программированию на кафедре. После ввода логина и пароля студент выбирает задание, загружает...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/codeonline.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/codeonline.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@
               <p class="card-text">разработали студенты кафедры Борис Лесин и Михаил Ступак.<br>С помощью телеграм-бота он командует компьютеру Raspberry Pi и...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/feedcat.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/feedcat.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@
               <p class="card-text">какая из трех письменностей искусственно создана Толкином для вымышленной вселенной? Это задача из книги российского лингвиста А. Пиперски...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/trans.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/trans.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -179,7 +179,7 @@
               
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/teamwork.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/teamwork.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
 
           </div>
@@ -193,7 +193,7 @@
               <p class="card-text">Дизайн-мышление, изучаемое на кафедре в курсе &laquo;Эргономика программного обеспечения&raquo;, заставляет нас думать творчески, преодолевать ограничения и, главное, быстро получать...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/erg.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/erg.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@
               <p class="card-text">Готовим бакалавров и магистров по направлению "Прикладная математика и информатика". На кафедре преподают только практики - сотрудники Концерна и...</p>
             </div>
             <div class="card-body d-flex align-items-end">
-              <a href="../vegagram/bk.php" class="btn btn-outline-secondary w-100">Читать далее &raquo;</a>
+              <a href="../vegagram/bk.php" class="btn btn-outline-warning w-100">Читать далее &raquo;</a>
             </div>
           </div>
         </div>

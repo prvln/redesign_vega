@@ -157,9 +157,9 @@
                   
 
                   <div class="d-flex align-items-start">
-                    <div class="prep-sign">{</div>
+                    <div class="prep-sign" style="color : #20c997">{</div>
                     <div class="d-flex flex-column">
-                      <h5><?='<strong>'.$name[0].'</strong>'.'<br>'.$name[1].'&nbsp;'.$name[2]?></h5>
+                      <h5><?='<strong class="green">'.$name[0].'</strong>'.'<br>'.$name[1].'&nbsp;'.$name[2]?></h5>
                       <p class="prep-title lh-sm mb-2"><?=$p['chair']?></p>
                       <p class="prep-title lh-sm"><?=($p['degree'] == '-' ? '' : ''.$p['degree'])?></p>
                     </div>

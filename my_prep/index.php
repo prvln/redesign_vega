@@ -46,8 +46,6 @@
             }
           ?>
           
-        
-	
 	<div class="row mt-3">	
 		<div class="col-md-6 mb-4 element-animation">
 			<h5><strong>Дисциплины:</strong></h5>
@@ -59,12 +57,17 @@
 			} else
 
             foreach($disc as $d)
-            {
+            {	if ($d['disc_page'] == NULL || ''){
 				?>
-				<?= '<a href="'.$d['disc_page'].'">' ?><p class="mb-0">- <?= $d['disc_name']?></p></a>
+				<p class="mb-0">- <?= $d['disc_name']?></p>
 			
 			<?php
-            }
+            }else{
+				?>
+					<?= '<a href="'.$d['disc_page'].'">' ?><p class="mb-0">- <?= $d['disc_name']?></p></a>
+				
+				<?php	
+			}}
           ?>
 		</div>
 		<div class="col-md-6 mb-4 element-animation">

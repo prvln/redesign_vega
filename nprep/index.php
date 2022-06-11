@@ -57,7 +57,8 @@
 					<div class="prep-sign">{</div>
 					<div class="d-flex flex-column">
 						<h5><?='<strong>'.$name[0].'</strong>'.'<br>'.$name[1].'&nbsp;'.$name[2]?></h5>
-						<p class="prep-title"><?=$p['chair'].($p['degree'] == '-' ? '' : '<br>'.$p['degree'])?></p>
+						<p class="prep-title lh-sm mb-2"><?=$p['chair']?></p>
+                      <p class="prep-title lh-sm"><?=($p['degree'] == '-' ? '' : ''.$p['degree'])?></p>
 					</div>
 					
 				</div>

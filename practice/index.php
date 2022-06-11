@@ -62,9 +62,7 @@
         <div class="row featurette">
         <div class="col-md-8 order-md-2">
           <h2 id="third" class="featurette-heading mb-2 element-animation">Отдел разработки вычислительной техники и программирования ПЛИС</h2>
-          <p class="element-animation" align="justify">Отдел занимается бортовыми специализированными устройствами обработки радиолокационной информации.</p>
-          <p class="element-animation" align="justify">
-          На практике студенты могут поработать с "железом", которое обрабатывает сигналы от радиолокатора. Для этого &laquo;железа&raquo; используются ПЛИС — программируемые логические интегральные схемы.
+          <p class="element-animation" align="justify">Отдел занимается специализированными бортовыми  устройствами обработки радиолокационной информации. На практике студенты могут поработать с "железом", которое обрабатывает сигналы от радиолокатора. Для этого &laquo;железа&raquo; используются ПЛИС — программируемые логические интегральные схемы.
           </p>
           <p class="element-animation" align="justify">
             Алгоритм работы таких схем задаётся на самом низком уровне: с помощью программирования транзисторов и вентилей. Это позволяет достичь высокой производительности и надёжности в критически важных системах.
@@ -109,7 +107,7 @@
         
 
       <div class="row featurette my-5">
-        <div class="col-md-8 order-md-2">
+        <div class="col-md-9 order-md-2">
           <h2 id="five" class="featurette-heading mb-2 element-animation">Отдел перспектив развития систем радиоуправления и радиолокации</h2>
           <p class="element-animation" align="justify"> В отделе два основных направления работ – во-первых, применение методов искусственного интеллекта в задачах обработки информации и управления, во-вторых, разработка алгоритмов управления БПЛА, мониторинга пространства и применения пространственных приемо-излучающих структур на базе БПЛА.</p>
           <p class="element-animation" align="justify">
@@ -119,9 +117,10 @@
             
             Опыт разработки таких перспективных алгоритмов позволит довольно легко найти себе применение в сфере разработки сложных информационных и управляющих систем самого разного назначения.</p>
         </div>
-        <div class="col-md-4 order-md-1">
-          <img src="../images/rls.png" class="card-img-top rounded-3 element-animation">
+        <div class="col-md-3 order-md-1">
+          <img src="../images/rls.jpg" class="card-img-top rounded-3 element-animation">
           <img src="../images/rls1.jpg" class="card-img-top rounded-3 element-animation">
+          <img src="../images/rls2.jpg" class="card-img-top rounded-3 element-animation">
         </div>
       </div>
 
