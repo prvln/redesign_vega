@@ -98,7 +98,7 @@
 	<h5 class="element-animation"><strong>Публикации:</strong></h5>
 	<div class="row">
 	<?php
-	if(empty($science)){
+	if(empty($public)){
 		?>
 		<p class="element-animation">Публикации отсутсвуют</p>
 		<?php
