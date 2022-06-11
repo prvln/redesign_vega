@@ -1,8 +1,7 @@
-window.onload = function(){
+ if(document.getElementById('test') != null){
+    window.onload = function(){
     let result = {};
     let step = 0;
-
-
     document.getElementById('test').innerHTML = `<div class="btn btn-outline-secondary my-2">Поехали</div>`
     document.getElementById('test').onclick = function() {
         document.querySelector(".startTest").remove();
@@ -65,3 +64,4 @@ window.onload = function(){
 
     //showQuestion(step);
 }
+ }
