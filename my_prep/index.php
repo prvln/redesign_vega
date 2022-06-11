@@ -71,18 +71,13 @@
           ?>
 		</div>
 		<div class="col-md-6 mb-4 element-animation">
+
 		<?php
-		
-		if($preps[0]['chair'] != 'Ассистент')
-		{
+		if(!empty($science)){
 			?>
-		<h5><strong>Направления научной деятельности:</strong></h5>
-		<?php
-		if(empty($science)){
-			?>
-			<p>Направления научной деятельности отсутсвуют</p>
+			<h5><strong>Направления научной деятельности:</strong></h5>
 			<?php
-			} else{
+			
 			foreach($science as $s)
             {
 				?>
@@ -94,18 +89,18 @@
           ?>
 
 		<?php
-            }}
+            }
           ?>
 		 </div> 
 	</div>
-	<h5 class="element-animation"><strong>Публикации:</strong></h5>
+	
 	<div class="row">
 	<?php
-	if(empty($public)){
+	if(!empty($public)){
 		?>
-		<p class="element-animation">Публикации отсутсвуют</p>
+		<h5 class="element-animation"><strong>Публикации:</strong></h5>
 		<?php
-		} else{
+		
 	foreach($public as $p)
             {
 				?>
