@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../auth/variables_disc.php');
+require_once('../../auth/variables.php');
 include_once('../../auth/auth_ssh.class.php');
 
 function printHeader($title = 'Базовая кафедра Веги', $submenu = "", $styles = NULL, $scripts = NULL)
