@@ -187,7 +187,7 @@ function printHeader($title = 'Базовая кафедра Веги', $submenu
                             </h6>
                             </a>
                             <div class="DropdownContent">
-                            <a href="https://vega.fcyb.mirea.ru/stud.php">Учебно-вспомогательные материалы</a>
+                            <a href="../students">Учебно-вспомогательные материалы</a>
                             <a href="https://vega.fcyb.mirea.ru/disc/">Страницы по дисциплинам</a>
                             <a href="https://vega.fcyb.mirea.ru/board/">Лента снимков доски</a>
                             <a href="https://vega.fcyb.mirea.ru/list/">Коллекция лучших работ</a>
@@ -320,92 +320,100 @@ function printFooter()
         <div class="container-sm container-lg container-md"> 
             <footer class="row row-cols-6 py-5 mt-5">
             <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <div class="footer-title"><h5><strong>О&nbsp;кафедре</strong></h5></div> 
-                <ul class="nav flex-column mb-4">
-                <li class="nav-item mb-2"><a href="../concern" class="nav-link p-0 ">О&nbsp;базовом предприятии</a></li>
-                <li class="nav-item mb-2"><a href="../nprep" class="nav-link p-0 ">Коллектив кафедры</a> </li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/files/vega-web.pdf" class="nav-link p-0 ">Презентация кафедры</a> </li>
-                <li class="nav-item mb-2"><a href="../gallery" class="nav-link p-0 ">Фотогалерея</a> </li>
-                <li class="nav-item mb-2"><a href="../vegagram" class="nav-link p-0 ">Vegagram</a> </li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/polozh.zip" class="nav-link p-0 ">Положения о кафедре</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/smko-t.zip" class="nav-link p-0 ">Цели</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/smko-p.zip" class="nav-link p-0 ">Политика в области качества</a></li>
-                </ul>
-                <div class="footer-title"><h5><strong>Наши контакты</strong></h5></div> 
-                <ul class="nav flex-column mb-4">
-                <li class="nav-link mb-2 p-0">+7 (499) 215-65-65 доб. 2404</li>
-                <li class="nav-item mb-2"><a href="vega@mirea.ru" class="nav-link p-0 ">vega@mirea.ru</a></li>
-                </ul>
+                <h5 class="footer-title"><strong>О&nbsp;кафедре</strong></h5>
+                <div class="d-flex flex-column">
+                    <a href="../concern" class="nav-link-footer  ">О&nbsp;базовом предприятии</a>
+                    <a href="../nprep" class="nav-link-footer  ">Коллектив кафедры</a>
+                    <a href="https://vega.fcyb.mirea.ru/files/vega-web.pdf" class="nav-link-footer  ">Презентация кафедры</a>
+                    <a href="../gallery" class="nav-link-footer  ">Фотогалерея</a>
+                    <a href="../vegagram" class="nav-link-footer  ">Vegagram</a>
+                    <a href="https://vega.fcyb.mirea.ru/polozh.zip" class="nav-link-footer  ">Положения о кафедре</a>
+                    <a href="https://vega.fcyb.mirea.ru/smko-t.zip" class="nav-link-footer  ">Цели</a>
+                    <a href="https://vega.fcyb.mirea.ru/smko-p.zip" class="nav-link-footer  ">Политика в области качества</a>
+                </div>
+
+                <h5 class="footer-title"><strong>Наши контакты</strong></h5>
+                <div class="d-flex flex-column">
+                    <p class="nav-link-footer mb-2 ">+7 (499) 215-65-65 доб. 2404</p>
+                    <a href="vega@mirea.ru" class="nav-link-footer  ">vega@mirea.ru</a>
+                </div>
 <?php
 	if ($au->isAdmin(@$_SESSION['hash']) || $au->isKafAdmin(@$_SESSION['hash'])) {
 ?>
-                <div class="footer-title"><h5><strong>Администрации</strong></h5></div> 
-                <ul class="nav flex-column mb-4">
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/students/" class="nav-link p-0 ">Списки студентов</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc" class="nav-link p-0">Страницы по дисциплинам</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc/time.php" class="nav-link p-0 ">Использование страниц</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc/discAccess.php" class="nav-link p-0 ">Доступ к страницам дисциплин</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc/attendance.php" class="nav-link p-0 ">Контроль посещаемости</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/mail/" class="nav-link p-0 ">Почтовая рассылка студентам</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/ym/" class="nav-link p-0 ">Назначение предзащит</a></li>
-                    <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/ntk2022/" class="nav-link p-0">НТК МИРЭА 2022</a></li>
-                </ul>
+                <h5 class="footer-title"><strong>Администрации</strong></h5>
+                <div class="d-flex flex-column">
+                    <a href="https://vega.fcyb.mirea.ru/students/" class="nav-link-footer  ">Списки студентов</a>
+                    <a href="https://vega.fcyb.mirea.ru/disc" class="nav-link-footer">Страницы по дисциплинам</a>
+                    <a href="https://vega.fcyb.mirea.ru/disc/time.php" class="nav-link-footer  ">Использование страниц</a>
+                    <a href="https://vega.fcyb.mirea.ru/disc/discAccess.php" class="nav-link-footer">Доступ к страницам дисциплин</a>
+                    <a href="https://vega.fcyb.mirea.ru/disc/attendance.php" class="nav-link-footer">Контроль посещаемости</a>
+                    <a href="https://vega.fcyb.mirea.ru/mail/" class="nav-link-footer">Почтовая рассылка студентам</a>
+                    <a href="https://vega.fcyb.mirea.ru/ym/" class="nav-link-footer  ">Назначение предзащит</a>
+                    <a href="https://vega.fcyb.mirea.ru/ntk2022/" class="nav-link-footer ">НТК МИРЭА 2022</a>
+                </div>
 <?php
 	}
 ?>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <div class="footer-title"><h5> <strong>Абитуриентам</strong></h5></div> 
-                <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="../files/poster2022.pdf" class="nav-link p-0 ">Постер</a></li>
-                <li class="nav-item mb-2"><a href="../bak" class="nav-link p-0 ">Дисциплины бакалавриата</a></li>
-                <li class="nav-item mb-2"><a href="../mag" class="nav-link p-0 ">Дисциплины магистратуры</a></li>
-                <li class="nav-item mb-2"><a href="../practice" class="nav-link p-0 ">Практика на предприятии</a></li>
-                <li class="nav-item mb-2"><a href="../gallery" class="nav-link p-0 ">Студенческая жизнь</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/files/vega-web.pdf" class="nav-link p-0 ">Презентация кафедры</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/files/magpr2016.pdf" class="nav-link p-0 ">Презентация магистерской программы</a></li>
-                <li class="nav-item mb-2"><a href="../progremmer_test" class="nav-link p-0 ">Тест на программиста</a></li>
-                </ul>
+                <h5 class="footer-title"><strong>Абитуриентам</strong></h5> 
+                <div class="d-flex flex-column">
+                    <a href="../files/poster2022.pdf" class="nav-link-footer  ">Постер</a>
+                    <a href="../bak" class="nav-link-footer  ">Дисциплины бакалавриата</a>
+                    <a href="../mag" class="nav-link-footer  ">Дисциплины магистратуры</a>
+                    <a href="../practice" class="nav-link-footer  ">Практика на предприятии</a>
+                    <a href="../gallery" class="nav-link-footer  ">Студенческая жизнь</a>
+                    <a href="https://vega.fcyb.mirea.ru/files/vega-web.pdf" class="nav-link-footer  ">Презентация кафедры</a>
+                    <a href="https://vega.fcyb.mirea.ru/files/magpr2016.pdf" class="nav-link-footer  ">Презентация магистерской программы</a>
+                    <a href="../progremmer_test" class="nav-link-footer  ">Тест на программиста</a>
+                </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
 <?php
 	if ($au->loggedIn(@$_SESSION['hash'])) {
 ?>			
-                <div class="footer-title"><h5><strong>Студентам</strong></h5></div> 
-                <ul class="nav flex-column">
+                <h5 class="footer-title"><strong>Студентам</strong></h5> 
+                <div class="d-flex flex-column">
+                    <p class="footer-title text-muted mb-2 ">Расписание 2022</p>
+                    <ul>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.xlsx" class="nav-link-footer">Расписание занятий</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.pdf" class="nav-link-footer">Расписание занятий PDF</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.xlsx" class="nav-link-footer">Расписание сессии лето</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.pdf" class="nav-link-footer">Расписание сессии лето PDF</a></li>
+                        <li><a href="http://vega.fcyb.mirea.ru/rasp/groups.php" class="nav-link-footer">Списки подгрупп</a></li>
+                    </ul>
+                
+                    
 
-                <li class="footer-title text-muted mb-2 p-0">Расписание 2022</li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.xlsx" class="nav-link p-0">- Расписание занятий</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.pdf" class="nav-link p-0">- Расписание занятий PDF</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.xlsx" class="nav-link p-0">- Расписание сессии лето</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.pdf" class="nav-link p-0">- Расписание сессии лето PDF</a></li>
-                <li class="nav-item mb-2"><a href="http://vega.fcyb.mirea.ru/rasp/groups.php" class="nav-link p-0 ">- Списки подгрупп</a></li>
+                    <p class="footer-title text-muted mb-2 ">Учебный план</p>
+                    <ul>
+                       <li><a href="../bak" class="nav-link-footer">Дисциплины бакалавриата</a></li>
+                        <li><a href="../mag" class="nav-link-footer">Дисциплины магистратуры</a></li>
+                        <li><a href="../practice" class="nav-link-footer">Практика на предприятии</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/ctl2020.php" class="nav-link-footer">Промежуточная отчётность</a></li>
+                    </ul>
+                    
+        
+                    <a href="../students" class="nav-link-footer  ">Учебно-вспомогательные материалы</a>
 
-                <li class="footer-title text-muted mb-2 p-0">Учебный план</li>
-                <li class="nav-item mb-2"><a href="../bak" class="nav-link p-0 ">- Дисциплины бакалавриата</a></li>
-                <li class="nav-item mb-2"><a href="../mag" class="nav-link p-0 ">- Дисциплины магистратуры</a></li>
-                <li class="nav-item mb-2"><a href="../practice" class="nav-link p-0 ">- Практика на предприятии</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/ctl2020.php" class="nav-link p-0 ">- Промежуточная отчётность</a></li>
-    
-                <li class="nav-item mb-2"><a href="../students" class="nav-link p-0 ">Учебно-вспомогательные материалы</a></li>
+                    <a href="https://vega.fcyb.mirea.ru/disc/" class="nav-link-footer">Страницы по дисциплинам</a>
+                    <ul>
+                        <li><a href="https://vega.fcyb.mirea.ru/apis" class="nav-link-footer">Анализ и проектирование ИС</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/vpd" class="nav-link-footer">Введение в проф. деятельность</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/misp" class="nav-link-footer">Методы и стандарты про­грам­ми­ро­вания</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/urpo" class="nav-link-footer">Управление разработкой ПО</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/chm" class="nav-link-footer">Численные методы</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/vkr" class="nav-link-footer">ВКР</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/disc" class="nav-link-footer">Другие дисциплины</a></li>
+                    </ul>
+                    <a href="https://vega.fcyb.mirea.ru/board/" class="nav-link-footer  ">Лента снимков доски <span class="badge bg-danger">New</span></a>
+                    <a href="https://vega.fcyb.mirea.ru/list/" class="nav-link-footer  ">Коллекция лучших работ <span class="badge bg-danger">New</span></a>
+                    <a href="https://vega.fcyb.mirea.ru/ntk2022/" class="nav-link-footer  ">НТК МИРЭА 2022</a>
 
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc/" class="nav-link p-0 ">Страницы по дисциплинам</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/apis" class="nav-link p-0 ">- Анализ и проектирование ИС</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/vpd" class="nav-link p-0 ">- Введение в проф. деятельность</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/misp" class="nav-link p-0 ">- Методы и стандарты про­грам­ми­ро­вания</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/urpo" class="nav-link p-0 ">- Управление разработкой ПО</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/chm" class="nav-link p-0 ">- Численные методы</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/vkr" class="nav-link p-0 ">- ВКР</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc" class="nav-link p-0 ">- Другие дисциплины</a></li>
-
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/board/" class="nav-link p-0 ">Лента снимков доски <span class="badge bg-danger">New</span></a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/list/" class="nav-link p-0 ">Коллекция лучших работ <span class="badge bg-danger">New</span></a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/ntk2022/" class="nav-link p-0 ">НТК МИРЭА 2022</a></li>
-
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/gitlab" class="nav-link p-0 ">GitLab</a></li>
-                <li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UCqlR1_U26s0g_-7Xk2Neaog" class="nav-link p-0 ">YouTube</a></li>
-                <li class="nav-item mb-2"><a href="https://t.me/bkvega" class="nav-link p-0 ">Telegram</a></li>
-                </ul>
+                    <a href="https://vega.fcyb.mirea.ru/gitlab" class="nav-link-footer  ">GitLab</a>
+                    <a href="https://www.youtube.com/channel/UCqlR1_U26s0g_-7Xk2Neaog" class="nav-link-footer  ">YouTube</a>
+                    <a href="https://t.me/bkvega" class="nav-link-footer  ">Telegram</a>
+                </div>
 <?php
 	}
 ?>
@@ -414,25 +422,27 @@ function printFooter()
 <?php
 	if ($au->isAdminOrPrep(@$_SESSION['hash'])) {
 ?>				
-                <div class="footer-title"><h5> <strong>Преподавателям</strong></h5></div> 
-                <ul class="nav flex-column">
+                <h5 class="footer-title"><strong>Преподавателям</strong></h5>
+                <div class="d-flex flex-column">
 
-                <li class="footer-title text-muted mb-2 p-0">Расписание 2022</li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.xlsx" class="nav-link p-0">- Расписание занятий</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.pdf" class="nav-link p-0">- Расписание занятий PDF</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.xlsx" class="nav-link p-0">- Расписание сессии лето</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.pdf" class="nav-link p-0">- Расписание сессии лето PDF</a></li>
-                <li class="nav-item mb-2"><a href="http://vega.fcyb.mirea.ru/rasp/groups.php" class="nav-link p-0 ">- Списки подгрупп</a></li>
+                <p class="footer-title text-muted mb-2 ">Расписание 2022</p>
+                    <ul>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.xlsx" class="nav-link-footer">Расписание занятий</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/2022spr9.pdf" class="nav-link-footer">Расписание занятий PDF</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.xlsx" class="nav-link-footer">Расписание сессии лето</a></li>
+                        <li><a href="https://vega.fcyb.mirea.ru/rasp/zex2021(22)sum4.pdf" class="nav-link-footer">Расписание сессии лето PDF</a></li>
+                        <li><a href="http://vega.fcyb.mirea.ru/rasp/groups.php" class="nav-link-footer">Списки подгрупп</a></li>
+                    </ul>
 
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/disc/" class="nav-link p-0 ">Страницы по дисциплинам</a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/board/" class="nav-link p-0 ">Лента снимков доски <span class="badge bg-danger">New</span></a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/list/" class="nav-link p-0 ">Коллекция лучших работ <span class="badge bg-danger">New</span></a></li>
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/ntk2022/" class="nav-link p-0 ">НТК МИРЭА 2022</a></li>
-                
-                <li class="nav-item mb-2"><a href="https://vega.fcyb.mirea.ru/gitlab" class="nav-link p-0 ">GitLab</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Инструкции по стримам</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Объявления</a></li>
-                </ul>
+                    <a href="https://vega.fcyb.mirea.ru/disc/" class="nav-link-footer">Страницы по дисциплинам</a>
+                    <a href="https://vega.fcyb.mirea.ru/board/" class="nav-link-footer  ">Лента снимков доски <span class="badge bg-danger">New</span></a>
+                    <a href="https://vega.fcyb.mirea.ru/list/" class="nav-link-footer  ">Коллекция лучших работ <span class="badge bg-danger">New</span></a>
+                    <a href="https://vega.fcyb.mirea.ru/ntk2022/" class="nav-link-footer  ">НТК МИРЭА 2022</a>
+                    
+                    <a href="https://vega.fcyb.mirea.ru/gitlab" class="nav-link-footer  ">GitLab</a>
+                    <a href="#" class="nav-link-footer  ">Инструкции по стримам</a>
+                    <a href="#" class="nav-link-footer  ">Объявления</a>
+                </div>
 <?php
 	}
 ?>				
