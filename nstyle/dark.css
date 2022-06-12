@@ -107,6 +107,17 @@ body{
     background-color: #212529;   
 }
 
+.form-floating{
+    background-color: #212529 !important;
+}
+.form-control{
+    background-color: #212529;
+}
+
+label{
+    color: #8d959a !important;
+}
+
 /* Шрифт навигационных элементов */
 .nav-link{
     font-size: medium;  
@@ -115,6 +126,19 @@ body{
 
 /* Подсветка навигационных элементов */
 .nav-link:hover{
+    color: #55FF33 !important;
+}
+
+/* Шрифт навигационных элементов */
+.nav-link-footer{
+    font-size: medium;  
+    color: #8d959a;
+    padding: 0 !important;
+    margin-bottom: .5rem !important;
+}
+
+/* Подсветка навигационных элементов */
+.nav-link-footer:hover{
     color: #55FF33 !important;
 }
 
@@ -277,7 +301,7 @@ button{
 /* Ответы в тесте на программиста */
 .answer-variant{
     text-align: center;
-    background-color: #a074c4;
+    background-color: #752781;
     color: white;
     border-radius: 10px;
 }
@@ -285,7 +309,7 @@ button{
 /* Ответы в тесте на программиста при наведении */
 .answer-variant:hover{
     transition: 1s;
-    background-color: #55FF33; 
+    background-color: #3EA28C; 
 }
 
 /* Часто задаваемые вопросы */
