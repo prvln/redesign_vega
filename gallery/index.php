@@ -100,10 +100,10 @@
             <a href="#up"><img src="../images/gallery/cafedra18.jpg" style="width:100%" onclick="myFunction(this);"></a>
           </div>
           <div class="col-6 col-md-4 col-lg-3 column my-2 element-animation ntk">
-            <a href="#up"><img src="../images/gallery/ntk4.jpg" style="width:100%" onclick="myFunction(this);"></a>
+            <a href="#up"><img src="../images/gallery/ntk3.jpg" style="width:100%" onclick="myFunction(this);"></a>
           </div>
           <div class="col-6 col-md-4 col-lg-3 column my-2 element-animation ntk">
-            <a href="#up"><img src="../images/gallery/ntk3.jpg" style="width:100%" onclick="myFunction(this);"></a>
+            <a href="#up"><img src="../images/gallery/ntk4.jpg" style="width:100%" onclick="myFunction(this);"></a>
           </div>
           <div class="col-6 col-md-4 col-lg-3 column my-2 element-animation ntk">
             <a href="#up"><img src="../images/gallery/ntk2.jpg" style="width:100%" onclick="myFunction(this);"></a>
