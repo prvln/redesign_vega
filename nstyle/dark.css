@@ -124,10 +124,6 @@ label{
     color: #8d959a;
 }
 
-/* Подсветка навигационных элементов */
-.nav-link:hover{
-    color: #55FF33 !important;
-}
 
 /* Шрифт навигационных элементов */
 .nav-link-footer{
@@ -137,12 +133,6 @@ label{
     margin-bottom: .5rem !important;
 }
 
-/* Подсветка навигационных элементов */
-.nav-link-footer:hover{
-    color: #55FF33 !important;
-    outline: none;
-    text-decoration: none;
-}
 /* Белый цвет для всех заголовков */
 h1,
 h2,
@@ -243,19 +233,6 @@ button{
     height: 200px;
 }
 
-/* Ячейка с презентациями при наведении */
-.pres-block:hover{
-    transition: .5s;
-    font-size: larger;
-    background: #054d91;
-}
-
-/* Фото преподавателей при наведении */
-.prepImg:hover{
-    transition: .5s ease;
-    background-color: #20c997;
-}
-
 /* Параметры ячеек с дисциплинами */
 .prof,
 .otherDIS,
@@ -289,16 +266,6 @@ button{
     background-color:#205287;
 }
 
-/* Ячейки с дисциплинами при наведении*/
-.prof:hover,
-.otherDIS:hover,
-.vmath:hover,
-.projects:hover{
-    transition: 1s;
-    background-color: #55FF33;
-    color: black;
-}
-
 /* Ответы в тесте на программиста */
 .answer-variant{
     text-align: center;
@@ -307,21 +274,12 @@ button{
     border-radius: 10px;
 }
 
-/* Ответы в тесте на программиста при наведении */
-.answer-variant:hover{
-    transition: 1s;
-    background-color: #3EA28C; 
-}
+
 
 /* Часто задаваемые вопросы */
 .question{
     color: white;
     background-color: #212529;
-}
-
-/* Часто задаваемые вопросы при наведении*/
-.question:hover{
-    color: #55FF33 !important;
 }
 
 /* Ссылки */
@@ -489,14 +447,14 @@ li{
 
     /* Анимация появления */
     .element-animation {
-        opacity: 0;
-        transform: translateY(20px);
+        opacity: 0.1;
+        transform: translateY(10px);
     }
 
     /* Анимация появления */
     .element-animation.element-show {
         opacity: 1;
-        transition: all 1.5s;
+        transition: all 1s;
         transform: translateY(0%);
     }
 
@@ -527,6 +485,54 @@ li{
     .hideBTN{
         display: none !important;
     }
+
+    /* Подсветка навигационных элементов */
+    .nav-link:hover{
+        color: #55FF33 !important;
+    }
+
+    /* Подсветка навигационных элементов */
+    .nav-link-footer:hover{
+        color: #55FF33 !important;
+        outline: none;
+        text-decoration: none;
+    }
+
+    /* Ячейка с презентациями при наведении */
+    .pres-block:hover{
+        transition: .5s;
+        font-size: larger;
+        background: #054d91;
+    }
+
+    /* Фото преподавателей при наведении */
+    .prepImg:hover{
+        transition: .5s ease;
+        background-color: #20c997;
+    }
+
+    /* Ячейки с дисциплинами при наведении*/
+    .prof:hover,
+    .otherDIS:hover,
+    .vmath:hover,
+    .projects:hover{
+        transition: 1s;
+        background-color: #55FF33;
+        color: black;
+    }
+
+    /* Ответы в тесте на программиста при наведении */
+    .answer-variant:hover{
+        transition: 1s;
+        background-color: #3EA28C; 
+    }
+
+    /* Часто задаваемые вопросы при наведении*/
+    .question:hover{
+        color: #55FF33 !important;
+    }
+
+
 }
 
 @media screen and (max-width: 767px) {   
@@ -562,16 +568,11 @@ li{
     }
 
     .Dropbtn {
-        color: #55FF33;
         text-align: left;
     }
 
     .Dropdown{
         margin-top: 20px;
-    }
-
-    .Dropbtn:hover {
-        color: #55FF33;
     }
 
     /* Ссылки внутри выпадающего списка */
@@ -586,7 +587,7 @@ li{
     }
 
     .DropdownContent a:hover {
-        color: #55FF33;
+        color: white;
         outline: none;
         text-decoration: none;
 
@@ -612,13 +613,6 @@ li{
         to { text-indent: 0; }
        }
 
-    /* Ячейка с презентациями при наведении */
-    .pres-block:hover{
-        transition: 0s;
-        font-size: medium;
-        background: #054d91;
-    }
-
     .practice{
         margin-top: 50px !important;
         margin-bottom: 100px !important;
@@ -626,5 +620,12 @@ li{
 
     .hideBTN-sm{
         display: none !important;
+    }
+
+    /* Подсветка навигационных элементов */
+    .nav-link-footer:hover{
+        color: #8d959a !important;
+        outline: none;
+        text-decoration: none;
     }
 }

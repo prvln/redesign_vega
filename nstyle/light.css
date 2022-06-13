@@ -114,24 +114,12 @@ li{
     color: #8d959a;
 }
 
-/* Подсветка навигационных элементов */
-.nav-link:hover{
-    color: #55FF33 !important;
-}
-
 /* Шрифт навигационных элементов */
 .nav-link-footer{
     font-size: medium;  
     color: #8d959a;
     padding: 0 !important;
     margin-bottom: .5rem !important;
-}
-
-/* Подсветка навигационных элементов */
-.nav-link-footer:hover{
-    color: #55FF33 !important;
-    outline: none;
-    text-decoration: none;
 }
 
 /* Специальный заголовок */
@@ -207,19 +195,6 @@ button{
     height: 200px;
 }
 
-/* Ячейка с презентациями при наведении */
-.pres-block:hover{
-    transition: .5s;
-    font-size: larger;
-    background: #20c997;
-}
-
-/* Фото преподавателей при наведении */
-.prepImg:hover{
-    transition: .5s ease;
-    background-color: #20c997;
-}
-
 /* Параметры ячеек с дисциплинами */
 .prof,
 .otherDIS,
@@ -252,15 +227,6 @@ button{
     background-color:#DBE8FF;
 }
 
-/* Ячейки с дисциплинами при наведении*/
-.prof:hover,
-.otherDIS:hover,
-.vmath:hover,
-.projects:hover{
-    transition: 1s;
-    background-color: #8cff75;
-}
-
 /* Ответы в тесте на программиста */
 .answer-variant{
     text-align: center;
@@ -268,20 +234,11 @@ button{
     border-radius: 10px;
 }
 
-/* Ответы в тесте на программиста при наведении */
-.answer-variant:hover{
-    transition: 1s;
-    background-color: #55FF33;
-}
+
 
 /* Часто задаваемые вопросы */
 .question{
     background-color: white;
-}
-
-/* Часто задаваемые вопросы при наведении*/
-.question:hover{
-    color: #55FF33 !important;
 }
 
 /* Ссылки */
@@ -293,8 +250,6 @@ a{
 
 /* Ссылки при наведении*/
 a:hover{
-    /* outline: none;
-    text-decoration: none; */
     color: black;
 }
 
@@ -381,7 +336,7 @@ img {
 /* конец */
 
 
-/*Для маленького экрана*/
+/*Для экрана*/
 @media (min-width: 576px) {
     .Modal__content {
         max-width: 800px;
@@ -444,14 +399,14 @@ img {
 
     /* Анимация появления */
     .element-animation {
-        opacity: 0;
-        transform: translateY(20px);
+        opacity: 0.1;
+        transform: translateY(10px);
     }
 
     /* Анимация появления */
     .element-animation.element-show {
         opacity: 1;
-        transition: all 1.5s;
+        transition: all 1s;
         transform: translateY(0%);
     }
 
@@ -483,6 +438,52 @@ img {
     .hideBTN{
         display: none !important;
     }
+
+    /* Часто задаваемые вопросы при наведении*/
+    .question:hover{
+        color: #55FF33 !important;
+    }
+
+    /* Подсветка навигационных элементов */
+    .nav-link:hover{
+        color: #55FF33 !important;
+    }
+
+    /* Подсветка навигационных элементов */
+    .nav-link-footer:hover{
+        color: #55FF33 !important;
+        outline: none;
+        text-decoration: none;
+    }
+
+    /* Ячейка с презентациями при наведении */
+    .pres-block:hover{
+        transition: .5s;
+        font-size: larger;
+        background: #20c997;
+    }
+
+    /* Фото преподавателей при наведении */
+    .prepImg:hover{
+        transition: .5s ease;
+        background-color: #20c997;
+    }
+
+    /* Ячейки с дисциплинами при наведении*/
+    .prof:hover,
+    .otherDIS:hover,
+    .vmath:hover,
+    .projects:hover{
+        transition: 1s;
+        background-color: #8cff75;
+    }
+
+    /* Ответы в тесте на программиста при наведении */
+    .answer-variant:hover{
+        transition: 1s;
+        background-color: #55FF33;
+    }
+
 
 }
 
@@ -519,16 +520,11 @@ img {
     }
 
     .Dropbtn {
-        color: #55FF33;
         text-align: left;
     }
 
     .Dropdown{
         margin-top: 20px;
-    }
-
-    .Dropbtn:hover {
-        color: #55FF33;
     }
 
     /* Ссылки внутри выпадающего списка */
@@ -543,7 +539,7 @@ img {
     }
 
     .DropdownContent a:hover {
-        color: #55FF33;
+        color: white;
         outline: none;
         text-decoration: none;
 
@@ -569,13 +565,6 @@ img {
         to { text-indent: 0; }
        }
 
-    /* Ячейка с презентациями при наведении */
-    .pres-block:hover{
-        transition: 0s;
-        font-size: medium;
-        background: #20c997;
-    }
-
     .practice{
         margin-top: 50px !important;
         margin-bottom: 100px !important;
@@ -583,6 +572,13 @@ img {
 
     .hideBTN-sm{
         display: none !important;
+    }
+
+    /* Подсветка навигационных элементов */
+    .nav-link-footer:hover{
+        color: #8d959a !important;
+        outline: none;
+        text-decoration: none;
     }
 
 }
