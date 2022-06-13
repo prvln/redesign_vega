@@ -130,6 +130,8 @@ li{
 /* Подсветка навигационных элементов */
 .nav-link-footer:hover{
     color: #55FF33 !important;
+    outline: none;
+    text-decoration: none;
 }
 
 /* Специальный заголовок */

@@ -140,8 +140,9 @@ label{
 /* Подсветка навигационных элементов */
 .nav-link-footer:hover{
     color: #55FF33 !important;
+    outline: none;
+    text-decoration: none;
 }
-
 /* Белый цвет для всех заголовков */
 h1,
 h2,
